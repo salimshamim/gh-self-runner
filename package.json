@@ -1,0 +1,25 @@
+{
+  "name": "gh-self-runner",
+  "version": "0.1.0",
+  "description": "Quickly provision a self-hosted GitHub Actions runner on your local development machine",
+  "type": "module",
+  "bin": {
+    "gh-self-runner": "bin/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "LICENSE"
+  ],
+  "keywords": [
+    "github",
+    "actions",
+    "runner",
+    "self-hosted",
+    "ci",
+    "devops"
+  ],
+  "license": "MIT"
+}
